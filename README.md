@@ -2,6 +2,10 @@
 
 This is a [Hapi](https://hapi.dev) service that returns the example JSON from MDN's `fetch()` [documentation](https://github.com/mdn/dom-examples/blob/main/fetch/fetch-json/products.json).
 
+## DEPLOYMENT
+
+Successfully deploy on vercel: https://simpleapi-hapi-alpha.vercel.app/
+
 ## Usage
 
 Once the requirements are install with `npm install` use `npm run serve` to start the server:
