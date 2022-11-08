@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "@hapi/code": "^9.0.1",
-    "@hapi/lab": "^25.0.1"
+    "@hapi/lab": "^25.0.1",
+    "prettier": "2.7.1"
   }
 }
