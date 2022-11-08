@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm run build --if-present
-  
+
   test:
     runs-on: ubuntu-latest
     strategy:
@@ -44,8 +44,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm test
-    
-  test:
+
+  audit:
     runs-on: ubuntu-latest
     strategy:
       matrix:
